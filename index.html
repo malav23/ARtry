@@ -1,11 +1,5 @@
-<model-viewer
-    src="../assets/2021-03-15--19-31-15.gltf"
-    ios-src="../assets/Chair.usdz"
-    poster="../assets/ChairPoster.png"
-    camera-orbit="1.2195rad 1.362rad auto"
-    shadow-intensity="1"
-    ar
-    ar-modes="webxr scene-viewer quick-look fallback"
-    camera-controls
-    alt="3D model of a chair with footrest"
->
+<a-assets>
+  <a-asset id="cesium-man" src="2021-03-15--19-31-15.gltf"></a-asset>
+</a-assets>
+<a-entity id="walker" gltf-model="#cesium-man" position="0 0 -5" scale="0.5 0.5 0.5">
+</a-entity>
